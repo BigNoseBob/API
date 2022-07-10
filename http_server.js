@@ -5,7 +5,7 @@
 
 const http = require('http')
 const fs = require('fs')
-const { login }  = require('bot.js')
+const { login }  = require('./bot.js')
 
 const config = JSON.parse(fs.readFileSync('./config.json'))
 const API_ENDPOINTS = config.api_endpoints
